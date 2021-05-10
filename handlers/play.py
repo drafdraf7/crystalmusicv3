@@ -154,13 +154,13 @@ async def playlist(client, message):
         temp.append(t)
     now_playing = temp[0][0]
     by = temp[0][1].mention(style='md')
-    msg = "**Lagu yang sedang dimainkan** di {}".format(message.chat.title)
+    msg = "**Lagu ini sudah dimulai!** di {}".format(message.chat.title)
     msg += "\n> "+ now_playing
     msg += "\n> Permintaan Dari : "+by
     temp.pop(0)
     if temp:
         msg += '\n\n'
-        msg += '**Antrian lagu**'
+        msg += '**Antrian lagu kamu!**'
         for song in temp:
             name = song[0]
             usr = song[1].mention(style='md')
@@ -259,14 +259,14 @@ async def p_cb(b, cb):
             temp.append(t)
         now_playing = temp[0][0]
         by = temp[0][1].mention(style='md')
-        msg = "**Lagu yang sedang dimainkan** di {}".format(cb.message.chat.title)
+        msg = "**Lagu ini sudah dimulai!** di {}".format(cb.message.chat.title)
         msg += "\n> "+ now_playing
         msg += "\n> Permintaan By "+by
         msg += "\n───────────────────────"
         temp.pop(0)
         if temp:
              msg += '\n\n'
-             msg += '**Daftar list antrian lagu**'
+             msg += '**Daftar list antri lagu kamu!**'
              for song in temp:
                  name = song[0]
                  usr = song[1].mention(style='md')
@@ -321,14 +321,14 @@ async def m_cb(b, cb):
             temp.append(t)
         now_playing = temp[0][0]
         by = temp[0][1].mention(style='md')
-        msg = "**Lagu yang sedang dimainkan** di {}".format(cb.message.chat.title)
+        msg = "**Lagu ini sudah dimulai!** di {}".format(cb.message.chat.title)
         msg += "\n> "+ now_playing
         msg += "\n> Permintaan By "+by
         msg += "\n───────────────────────"
         temp.pop(0)
         if temp:
              msg += '\n\n'
-             msg += '**Daftar list antrian lagu**'
+             msg += '**Daftar list antri lagu kamu!**'
              for song in temp:
                  name = song[0]
                  usr = song[1].mention(style='md')
@@ -458,7 +458,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>❌ EMERGENCY NOT FOUND 404! \nAssistant Bot tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot! Pastikan pengguna tidak dibanned/blokir dalam grup."
-                                  "\n\nAtau tambahkan secara manual @assistencrystalv2 ke Grup Anda dan coba lagi</b>",
+                                  "\n\nAtau tambahkan secara manual @assistencrystalv3 ke Grup Anda dan coba lagi</b>",
                               )
                               pass
     try:
@@ -607,7 +607,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>❌ EMERGENCY NOT FOUND 404! \nAssistant Bot tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot! Pastikan pengguna tidak dibanned/blokir dalam grup."
-                                  "\n\nAtau tambahkan secara manual @assistencrystalv2 ke Grup Anda dan coba lagi</b>",
+                                  "\n\nAtau tambahkan secara manual @assistencrystalv3 ke Grup Anda dan coba lagi</b>",
                               )
                               pass
     try:
@@ -671,7 +671,7 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"#️⃣ Lagu yang Anda minta **Di Antrian** di posisi {position}")
+        await res.edit_text(f"#️⃣ Lagu yang Anda minta **Di Antri-an** di posisi {position}")
     else:
         await res.edit_text("Lagu sudah di-mulai!.....")
         chat_id = message_.chat.id
