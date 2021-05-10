@@ -53,7 +53,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>❌ EMERGENCY NOT FOUND 404! \n Assistant {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot!, Pastikan pengguna tidak dibanned/blokir dalam grup."
-            "\n\nAtau tambahkan secara manual @assistencrystalv2 ke Grup Anda dan coba lagi</b>",
+            "\n\nAtau tambahkan secara manual @assistencrystalv3 ke Grup Anda dan coba lagi</b>",
         )
         return
     await message.reply_text(
