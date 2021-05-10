@@ -458,7 +458,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>❌ EMERGENCY NOT FOUND 404! \nAssistant Bot tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot! Pastikan pengguna tidak dibanned/blokir dalam grup."
-                                  "\n\nAtau tambahkan secara manual @assistencrystal ke Grup Anda dan coba lagi</b>",
+                                  "\n\nAtau tambahkan secara manual @assistencrystalv2 ke Grup Anda dan coba lagi</b>",
                               )
                               pass
     try:
@@ -607,7 +607,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>❌ EMERGENCY NOT FOUND 404! \nAssistant Bot tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot! Pastikan pengguna tidak dibanned/blokir dalam grup."
-                                  "\n\nAtau tambahkan secara manual @assistencrystal ke Grup Anda dan coba lagi</b>",
+                                  "\n\nAtau tambahkan secara manual @assistencrystalv2 ke Grup Anda dan coba lagi</b>",
                               )
                               pass
     try:
