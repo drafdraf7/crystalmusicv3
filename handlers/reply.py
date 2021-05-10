@@ -35,7 +35,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 Sedang memproses lagumu...")
+    lel = await message.reply("🔄 Lagu kamu sedang diproses...")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -81,9 +81,9 @@ async def play(_, message: Message):
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_photo(
-        photo="https://telegra.ph/file/cee3b9ebb9aa6ef7ddcde.jpg",
+        photo="https://telegra.ph/file/c85f57bc6ffaf85dedd5a.jpg",
         reply_markup=keyboard,
-        caption = f"🍃 **Judul Lagu :** Non Judul Lagu!\n🦇 **Player :** Crystal Heart Music!\n" \
+        caption = f"🍃 **Judul Lagu :** Non Judul Lagu!\n🦇 **Player :** Crystal Heart Music v3!\n" \
                + f"⚡ **Request Dari :** {message.from_user.mention}"
         ),
         return await lel.delete()
