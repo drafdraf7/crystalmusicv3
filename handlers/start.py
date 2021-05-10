@@ -18,7 +18,7 @@ async def start(_, message: Message):
 ❃ 𝓜𝓪𝓷𝓪𝓰𝓮𝓶𝓮𝓷𝓽 𝓦𝓲𝓽𝓱 🦇 𝓑𝔂 : [Afterday](https://t.me/afterdaytoxic)
 ❃ 𝓣𝓱𝓪𝓷𝓴𝓼 𝓣𝓸 : [Grup Support](https://t.me/humangabutguys)
 ━━━━━━━━━━━━━━━
-𝐁𝐨𝐭 𝐌𝐮𝐬𝐢𝐤 𝐀𝐤𝐮 : @crystalisticbot - 𝐀𝐬𝐬𝐢𝐬𝐭𝐞𝐧 𝐌𝐮𝐬𝐢𝐤 : @assistencrystal
+𝐁𝐨𝐭 𝐌𝐮𝐬𝐢𝐤 𝐀𝐤𝐮 : @crystalisticv2bot - 𝐀𝐬𝐬𝐢𝐬𝐭𝐞𝐧 𝐌𝐮𝐬𝐢𝐤 : @assistencrystalv2
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
