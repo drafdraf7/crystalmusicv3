@@ -2,7 +2,7 @@
   "name": "Bot Crystal Music!",
   "description": "Aku Pemutar Musik Ditelegram, Aku Akan Menemani Kamu Di Voice Chat Grup?.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/drafdraf7/crystalmusicv2",
+  "repository": "https://github.com/drafdraf7/crystalmusicv3",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
